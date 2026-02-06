@@ -1,6 +1,10 @@
 import os
 import requests
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Carrega variáveis do arquivo .env (se existir)
+load_dotenv()
 
 class UnsplashAPI:
     """Cliente para API do Unsplash."""

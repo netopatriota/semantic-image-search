@@ -5,6 +5,10 @@ import pickle
 import base64
 import numpy as np
 from openai import OpenAI
+from dotenv import load_dotenv
+
+# Carrega variáveis do arquivo .env (se existir)
+load_dotenv()
 
 def l2_normalize(x: np.ndarray, axis: int = -1, eps: float = 1e-12) -> np.ndarray:
     """L2 normaliza um array numpy ao longo de um eixo específico."""

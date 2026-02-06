@@ -3,6 +3,7 @@ import glob
 import streamlit as st
 import numpy as np
 from PIL import Image
+from dotenv import load_dotenv
 from script import (
     OpenAI,
     l2_normalize,
@@ -11,6 +12,9 @@ from script import (
     describe_image
 )
 from unsplash_search import search_and_download
+
+# Carrega variáveis do arquivo .env (se existir)
+load_dotenv()
 
 st.set_page_config(
     page_title="🔍 Busca Semântica de Imagens",

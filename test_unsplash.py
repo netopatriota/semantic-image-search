@@ -4,7 +4,11 @@ Script de teste para validar integração com Unsplash.
 """
 
 import os
+from dotenv import load_dotenv
 from unsplash_search import UnsplashAPI, search_and_download
+
+# Carrega variáveis do arquivo .env (se existir)
+load_dotenv()
 
 def test_unsplash_connection():
     """Testa conexão com Unsplash API."""
