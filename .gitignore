@@ -1,0 +1,43 @@
+# Cache e dados temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# API Keys e secrets
+.env
+*.key
+
+# Cache do projeto
+.embeddings_cache_*.pkl
+unsplash_cache/
+
+# Streamlit
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.env.example
