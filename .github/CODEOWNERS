@@ -1,0 +1,12 @@
+# Define code owners para aprovação automática de PRs
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Você é dono de tudo no repositório
+* @netopatriota
+
+# Arquivos críticos requerem sua aprovação
+/requirements.txt @netopatriota
+/.env.example @netopatriota
+/script.py @netopatriota
+/app.py @netopatriota
+/unsplash_search.py @netopatriota
